@@ -1,5 +1,5 @@
-function login(username, password) {
-  if (user === 'admin' && password === '123') {
+function login(username, pass) {
+  if (user === 'admin' && pass === '123') {
     return false;
   }
   return true;
