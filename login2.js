@@ -1,4 +1,4 @@
-function login(user, password) {
+function login(username, password) {
   if (user === 'admin' && password === '123') {
     return false;
   }
